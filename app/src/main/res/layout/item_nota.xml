@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/txtAlunoNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aluno"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDisciplinaNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disciplina"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtBimestre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bimestre"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtMencao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menção"
+        android:textSize="16sp" />
+
+</LinearLayout>

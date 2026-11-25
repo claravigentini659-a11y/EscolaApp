@@ -1,3 +1,4 @@
+
 package com.example.escolaapp
 
 import android.content.Intent
@@ -12,12 +13,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<Button>(R.id.btnDisciplinas).setOnClickListener {
-            val tela = Intent(this, DisciplinasActivity::class.java)
-            startActivity(tela)
+            startActivity(Intent(this, DisciplinasActivity::class.java))
         }
+
         findViewById<Button>(R.id.btnAlunos).setOnClickListener {
-            val tela = Intent(this, AlunosActivity::class.java)
-            startActivity(tela)
+            startActivity(Intent(this, AlunosActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btnNotas).setOnClickListener {
+            startActivity(Intent(this, NotasActivity::class.java))
+        }
+
+        findViewById<Button>(R.id.btnMatriculas).setOnClickListener {
+            startActivity(Intent(this, MatriculasActivity::class.java))
         }
     }
 }
