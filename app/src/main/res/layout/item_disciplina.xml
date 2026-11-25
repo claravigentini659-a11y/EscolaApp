@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da disciplina"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#193B68"/>
+
+    <TextView
+        android:id="@+id/txtProfessor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Professor"/>
+
+    <TextView
+        android:id="@+id/txtCargaHoraria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carga horária"/>
+
+</LinearLayout>
